@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dRbnL4BlNC2WK00HrdmQxcRsYsKVjNb1XynSxUcQIhXZnS9q9Jcwf+2uCMVIr8hwZ0up1zfmtjkXX1YWPZ9WVg==",
+  "dgSpecHash": "IO1NBuHADj+0dIAhl9rB/x278glWgvPdTxC8UytCs6OqOYXSYCm4bfp9C2gfXe5Wgr22/Uld2JogbW2fekeOKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Data\\E4Oto.Data.csproj",
+  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Data\\E4Oto.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -462,11 +462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Crypt\\E4Oto.Crypt.csproj",
+      "projectUniqueName": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Crypt\\E4Oto.Crypt.csproj",
       "projectName": "E4Oto.Crypt",
-      "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Crypt\\E4Oto.Crypt.csproj",
+      "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Crypt\\E4Oto.Crypt.csproj",
       "packagesPath": "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Crypt\\obj\\",
+      "outputPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Crypt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",

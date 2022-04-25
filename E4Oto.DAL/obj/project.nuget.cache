@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZz7O5cBBnHsIy1TBveAxyBcqKmUSsKU3cYcmP/PCx/L0+p9LqBkMmpzTKM9lJgQU0YQLLz7uZQU9LLjOVq+Pg==",
+  "dgSpecHash": "iM6aQvO6rjDmfy3jWRgxsgbeSNBhPZF0LiAY9LwRiKvKU2n27XiVTSXBqUxI7UTACYudLznKHC8WgEb++9/n8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.DAL\\E4Oto.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.DAL\\E4Oto.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

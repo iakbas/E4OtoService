@@ -1,8 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Extras\WForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Extras\WForm.Designer.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Pages\Musteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Extras\WForm.resx">
+      <SubType>Code</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

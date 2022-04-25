@@ -8629,11 +8629,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Main\\E4Oto.Main.csproj",
+      "projectUniqueName": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Main\\E4Oto.Main.csproj",
       "projectName": "E4Oto.Main",
-      "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Main\\E4Oto.Main.csproj",
+      "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Main\\E4Oto.Main.csproj",
       "packagesPath": "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Main\\obj\\",
+      "outputPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -8659,11 +8659,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.DAL\\E4Oto.DAL.csproj": {
-              "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.DAL\\E4Oto.DAL.csproj"
+            "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.DAL\\E4Oto.DAL.csproj": {
+              "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.DAL\\E4Oto.DAL.csproj"
             },
-            "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Data\\E4Oto.Data.csproj": {
-              "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Data\\E4Oto.Data.csproj"
+            "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Data\\E4Oto.Data.csproj": {
+              "projectPath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Data\\E4Oto.Data.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FeCGlvChWPsL0iHtN/G3X2HobikCPQrpcxUUZOrAElDuMxf6S0UnhAMhtGKL9/c5cspbq65/voz0UivZ8OTcNw==",
+  "dgSpecHash": "lUcNrKenMrch0+fMni3AoY6us6N8uHqJQtQ8SY6rn53ZgyoS/qc4FA7J50C2h98WAqnw3238504IDDOwZohIig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Main\\E4Oto.Main.csproj",
+  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Main\\E4Oto.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\devexpress.charts\\21.2.7\\devexpress.charts.21.2.7.nupkg.sha512",
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\devexpress.charts.core\\21.2.7\\devexpress.charts.core.21.2.7.nupkg.sha512",

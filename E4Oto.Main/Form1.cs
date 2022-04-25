@@ -1,4 +1,5 @@
-﻿using E4Oto.DAL.Bussiness;
+﻿using DevExpress.XtraSplashScreen;
+using E4Oto.DAL.Bussiness;
 using E4Oto.DAL.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,15 +18,31 @@ namespace E4Oto.Main
         public Form1()
         {
             InitializeComponent();
-            uoW = new UoW(new Data.Models.E4OtoServisContext());
+           
         }
-        IUoW uoW;
+   
         private void Form1_Load(object sender, EventArgs e)
         {  
+ 
+        }
 
-            var musteriler = uoW.Musteriler.GetAll();
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (Application.OpenForms.OfType<Pages.Musteriler>().Count() > 0)
+            {
+                Application.OpenForms.OfType<Pages.Musteriler>().ElementAt(0).Activate(); return;
+            }
+             
+            SplashScreenManager.ShowForm(typeof(Extras.WForm));
+            Pages.Musteriler E = new Pages.Musteriler()
+            {
+                Dock = DockStyle.Fill,
+                MdiParent = this
+            };
+            E.BringToFront(); E.Show();
+            SplashScreenManager.CloseForm(false);
 
-            dataGridView1.DataSource = musteriler;
+           
         }
     }
 }

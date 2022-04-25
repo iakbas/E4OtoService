@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tCsTV4+P3FAi5f9ymfmJ+DLumv0wFKMz7TxhZKiUJaCMjeZyr8CcNJ4Ts83OtIX4e0Y0zYHbfY9kry3EUKQayw==",
+  "dgSpecHash": "+Rm7b/HC2oBvaJkwkx8i/X2bGPvHjS0rS4sGsmNLadtnKQR2J+xr+ucANUn886xSdYHUg6mrRyWbf4EYz1ytAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4Oto\\E4Oto.Crypt\\E4Oto.Crypt.csproj",
+  "projectFilePath": "C:\\Users\\Ibrahim.Akbas\\source\\repos\\E4OtoService\\E4Oto.Crypt\\E4Oto.Crypt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Ibrahim.Akbas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
