@@ -1,0 +1,12 @@
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\bin\Debug\net5.0\E4Oto.Crypt.deps.json
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\bin\Debug\net5.0\E4Oto.Crypt.dll
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\bin\Debug\net5.0\ref\E4Oto.Crypt.dll
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\bin\Debug\net5.0\E4Oto.Crypt.pdb
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\E4Oto.Crypt.csproj.AssemblyReference.cache
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\E4Oto.Crypt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\E4Oto.Crypt.AssemblyInfoInputs.cache
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\E4Oto.Crypt.AssemblyInfo.cs
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\E4Oto.Crypt.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\E4Oto.Crypt.dll
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\ref\E4Oto.Crypt.dll
+C:\Users\Ibrahim.Akbas\source\repos\E4Oto\E4Oto.Crypt\obj\Debug\net5.0\E4Oto.Crypt.pdb
