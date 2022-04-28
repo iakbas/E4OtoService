@@ -39,6 +39,28 @@ namespace E4Oto.DAL.Repositories
         {
 
         }
+
+        public object GetAramalarList()
+        {
+            var sc = (from s in _context.Musterilers
+                     join sa in _context.Aramalars on s.Id equals sa.MusteriId
+                     join sad in _context.AramaDetaylaris on sa.Id equals sad.AramaId
+                     select new { 
+                        
+                         MusteriNo=s.MusteriNo,
+                         MusteriUnvani= s.Unvani,
+                         Tarih=sa.Tarih,
+                         Saat = sa.Saat,
+                         Danisman = sad.RandevuDanismani,
+                         sad.RandevuAlindi,
+                         sad.RandevuTarihi,
+                         sad.Sonuc,
+                         sad.DosyaDurumu
+                        
+                     }).ToList();
+
+            return sc;
+        }
     }
     public class DanismanlarRepo : GenericRepository<E4Oto.Data.Models.Danismanlar>
     {

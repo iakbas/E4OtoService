@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 #nullable disable
 
@@ -7,6 +8,7 @@ namespace E4Oto.Data.Models
 {
     public partial class AramaDetaylari
     {
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public bool? TeklifiVerildi { get; set; }
         public DateTime? TeklifHatirlatmaTarihi { get; set; }

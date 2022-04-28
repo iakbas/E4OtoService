@@ -106,6 +106,9 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="barButtonItem2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>-100, -100</value>
+  </metadata>
   <data name="barButtonItem2.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAADoVJREFUeF7t
@@ -174,6 +177,9 @@
         AABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="barButtonItem3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>-100, -100</value>
+  </metadata>
   <data name="barButtonItem3.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAACh1JREFUeF7t
@@ -334,10 +340,65 @@
         TkSuQmCC
 </value>
   </data>
-  <metadata name="ribbonPage1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="barButtonItem8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>-100, -100</value>
   </metadata>
-  <metadata name="ribbonPageGroup2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="barButtonItem8.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        R+sAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="ribbonPageGroup1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>-100, -100</value>
   </metadata>
   <metadata name="barManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

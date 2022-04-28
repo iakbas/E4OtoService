@@ -44,5 +44,23 @@ namespace E4Oto.Main
 
            
         }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (Application.OpenForms.OfType<Pages.Aramalar>().Count() > 0)
+            {
+                Application.OpenForms.OfType<Pages.Aramalar>().ElementAt(0).Activate(); return;
+            }
+
+            SplashScreenManager.ShowForm(typeof(Extras.WForm));
+            Pages.Aramalar E = new Pages.Aramalar()
+            {
+                Dock = DockStyle.Fill,
+                MdiParent = this
+            };
+            E.BringToFront(); E.Show();
+            SplashScreenManager.CloseForm(false);
+
+        }
     }
 }

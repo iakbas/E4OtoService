@@ -25,5 +25,20 @@ namespace E4Oto.Main.Pages
         {
             GRC.DataSource = uoW.Musteriler.GetAll();
         }
+
+        private void yeniEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Modals.MusteriForm _m = new Modals.MusteriForm();
+            _m.ShowDialog();
+        }
+
+        private void düzenleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (GRW.DataRowCount == 0) return;
+            E4Oto.Data.Models.Musteriler _musteri = (E4Oto.Data.Models.Musteriler)GRW.GetRow(GRW.FocusedRowHandle);
+            Modals.MusteriForm _m = new Modals.MusteriForm();
+            _m.refMusteri = _musteri;
+            _m.ShowDialog();
+        }
     }
 }

@@ -274,3 +274,5 @@ C:\Users\Ibrahim.Akbas\source\repos\E4OtoService\E4Oto.Main\obj\Debug\net5.0-win
 C:\Users\Ibrahim.Akbas\source\repos\E4OtoService\E4Oto.Main\obj\Debug\net5.0-windows\E4Oto.Main.genruntimeconfig.cache
 C:\Users\Ibrahim.Akbas\source\repos\E4OtoService\E4Oto.Main\obj\Debug\net5.0-windows\E4Oto.Main.Pages.Musteriler.resources
 C:\Users\Ibrahim.Akbas\source\repos\E4OtoService\E4Oto.Main\obj\Debug\net5.0-windows\E4Oto.Main.Extras.WForm.resources
+C:\Users\Ibrahim.Akbas\source\repos\E4OtoService\E4Oto.Main\obj\Debug\net5.0-windows\E4Oto.Main.Pages.Modals.MusteriForm.resources
+C:\Users\Ibrahim.Akbas\source\repos\E4OtoService\E4Oto.Main\obj\Debug\net5.0-windows\E4Oto.Main.Pages.Aramalar.resources

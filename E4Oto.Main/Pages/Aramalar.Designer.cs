@@ -1,7 +1,7 @@
 ﻿
 namespace E4Oto.Main.Pages
 {
-    partial class Musteriler
+    partial class Aramalar
     {
         /// <summary>
         /// Required designer variable.
@@ -30,8 +30,9 @@ namespace E4Oto.Main.Pages
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             this.GRC = new DevExpress.XtraGrid.GridControl();
+            this.GRW = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.yeniEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.düzenleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,26 +41,30 @@ namespace E4Oto.Main.Pages
             this.görünümToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.düzenleToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.kaydetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.GRW = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.GRC)).BeginInit();
-            this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRW)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // GRC
             // 
             this.GRC.ContextMenuStrip = this.contextMenuStrip1;
             this.GRC.Dock = System.Windows.Forms.DockStyle.Fill;
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.GRC.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.GRC.Location = new System.Drawing.Point(0, 0);
             this.GRC.MainView = this.GRW;
             this.GRC.Name = "GRC";
-            this.GRC.Size = new System.Drawing.Size(679, 466);
-            this.GRC.TabIndex = 0;
+            this.GRC.Size = new System.Drawing.Size(656, 402);
+            this.GRC.TabIndex = 1;
             this.GRC.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.GRW});
+            // 
+            // GRW
+            // 
+            this.GRW.GridControl = this.GRC;
+            this.GRW.Name = "GRW";
             // 
             // contextMenuStrip1
             // 
@@ -70,32 +75,30 @@ namespace E4Oto.Main.Pages
             this.toolStripSeparator1,
             this.görünümToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 120);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(126, 98);
             // 
             // yeniEkleToolStripMenuItem
             // 
             this.yeniEkleToolStripMenuItem.Name = "yeniEkleToolStripMenuItem";
-            this.yeniEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yeniEkleToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.yeniEkleToolStripMenuItem.Text = "Yeni Ekle";
-            this.yeniEkleToolStripMenuItem.Click += new System.EventHandler(this.yeniEkleToolStripMenuItem_Click);
             // 
             // düzenleToolStripMenuItem
             // 
             this.düzenleToolStripMenuItem.Name = "düzenleToolStripMenuItem";
-            this.düzenleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.düzenleToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.düzenleToolStripMenuItem.Text = "Düzenle";
-            this.düzenleToolStripMenuItem.Click += new System.EventHandler(this.düzenleToolStripMenuItem_Click);
             // 
             // kaldırToolStripMenuItem
             // 
             this.kaldırToolStripMenuItem.Name = "kaldırToolStripMenuItem";
-            this.kaldırToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kaldırToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.kaldırToolStripMenuItem.Text = "Kaldır";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(122, 6);
             // 
             // görünümToolStripMenuItem
             // 
@@ -103,7 +106,7 @@ namespace E4Oto.Main.Pages
             this.düzenleToolStripMenuItem1,
             this.kaydetToolStripMenuItem});
             this.görünümToolStripMenuItem.Name = "görünümToolStripMenuItem";
-            this.görünümToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.görünümToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.görünümToolStripMenuItem.Text = "Görünüm";
             // 
             // düzenleToolStripMenuItem1
@@ -118,23 +121,18 @@ namespace E4Oto.Main.Pages
             this.kaydetToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.kaydetToolStripMenuItem.Text = "Kaydet";
             // 
-            // GRW
-            // 
-            this.GRW.GridControl = this.GRC;
-            this.GRW.Name = "GRW";
-            // 
-            // Musteriler
+            // Aramalar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(679, 466);
+            this.ClientSize = new System.Drawing.Size(656, 402);
             this.Controls.Add(this.GRC);
-            this.Name = "Musteriler";
-            this.Text = "Musteriler";
-            this.Load += new System.EventHandler(this.Musteriler_Load);
+            this.Name = "Aramalar";
+            this.Text = "Aramalar";
+            this.Load += new System.EventHandler(this.Aramalar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GRC)).EndInit();
-            this.contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.GRW)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
